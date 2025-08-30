@@ -1,0 +1,45 @@
+{
+  "name": "mulearn-todo",
+  "version": "1.0.0",
+  "description": "Simple interactive To-Do List app",
+  "homepage": "https://arklogamer.github.io/mulearn-todo",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ARKLOGAMER/mulearn-todo.git"
+  },
+  "keywords": [
+    "react",
+    "todo",
+    "task-manager",
+    "responsive",
+    "black-white-theme"
+  ],
+  "author": "ARKLOGAMER",
+  "license": "MIT"
+}
