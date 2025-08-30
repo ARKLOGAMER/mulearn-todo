@@ -67,35 +67,6 @@ Make sure you have the following installed:
 - **Tab**: Navigate between elements
 - **Space**: Toggle task completion
 
-## 📱 Responsive Design
-
-The app automatically adapts to different screen sizes:
-
-| Device | Breakpoint | Layout |
-|--------|------------|---------|
-| Desktop | 768px+ | Full layout, side-by-side elements |
-| Tablet | 480px-768px | Stacked layout, optimized spacing |
-| Mobile | 360px-480px | Compact design, touch-friendly |
-| Small Mobile | <360px | Minimal padding, essential elements |
-
-## 🎨 Theme System
-
-### Light Theme (Default)
-- **Background**: Pure white (#ffffff)
-- **Text**: Deep black (#000000)
-- **Borders**: Solid black (#000000)
-- **Accents**: Subtle grays (#f8f8f8, #666666)
-
-### Dark Theme (Auto-detected)
-- Automatically switches based on system preferences
-- **Background**: Pure black (#000000)
-- **Text**: Pure white (#ffffff)
-- **Borders**: White (#ffffff)
-- **Accents**: Dark grays (#111111, #222222)
-
-### High Contrast Mode
-- Enhanced borders and focus indicators
-- Optimized for accessibility compliance
 
 ## 🏗️ Project Structure
 
@@ -121,7 +92,6 @@ mulearn-todo/
 | `npm test` | Launches the test runner |
 | `npm run eject` | Ejects from Create React App |
 
-## 🚀 Deployment
 
 ### Build for Production
 ```bash
@@ -140,43 +110,11 @@ npm run build
    ```
 3. Deploy: `npm run deploy`
 
-### Deploy to Netlify
-1. Build the project: `npm run build`
-2. Drag the `build` folder to [Netlify](https://netlify.com)
-3. Your app is live!
-
-## 🧪 Testing
-
-The app includes basic testing setup:
-```bash
-npm test
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a pull request
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- Built with [Create React App](https://create-react-app.dev/)
-- Icons and design inspiration from modern UI/UX principles
-- Accessibility features following WCAG guidelines
-
-## 📞 Support
-
-If you have any questions or need help:
-- Open an [issue](../../issues) on GitHub
-- Contact: [your-email@example.com]
-
----
 
 **Made with ❤️ using React.js**
 
